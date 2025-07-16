@@ -12,7 +12,7 @@ The goal of this project is to develop a YOLO-based detection model for identify
 
 -  **Problem**: Jetskis are not included in YOLO's default object classes.
 -  **Solution**: A custom dataset was sourced from [Roboflow](https://roboflow.com/), annotated specifically for jetskis.
--  **Model**: YOLOv5 with custom training using transfer learning.
+-  **Model**: YOLOv8 with custom training using transfer learning.
 -  **Techniques Used**:
   - Image augmentations (flip, blur, exposure, etc.)
   - Mosaic augmentation for improving small-object detection
@@ -30,7 +30,7 @@ The goal of this project is to develop a YOLO-based detection model for identify
 
 ## 🧠 Model Training
 
-- Base Model: `yolov5s.pt`
+- Base Model: `yolov8s.pt`
 - Custom training via PyTorch
 - Augmentations: Rotation, flipping, hue/saturation, blur, exposure/contrast, cropping
 - Evaluation: mAP@0.5, precision, recall metrics
