@@ -1,4 +1,4 @@
-# 🛥️ detection_Jetski
+# 🛥️ Detection_Jetski
 
 ## 📌 About
 
