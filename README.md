@@ -1,5 +1,5 @@
 # 🛥️ Detection_Jetski
-
+![Описание изображения](jetski.jpg)
 ## 📌 About
 
 `detection_Jetski` is a computer vision project focused on detecting **jetskis** in images and videos. Since jetskis are not included in the standard YOLOv5 object detection classes, a custom dataset was collected and used to train the model. The project lays the foundation for future features like speed estimation and behavior tracking.
